@@ -1,0 +1,195 @@
+body,
+html {
+    font-family: "roboto", Arial, serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    color: #383838;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+/*/ Header /*/
+.header {
+    background: #111111;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+
+
+
+/*/ Navigatie /*/
+.navigatie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navigatie li {
+    margin-right: 32px;
+}
+
+.navigatie li a {
+    color: #fff;
+    font-weight: 500;
+    transition: .3s all;
+}
+.navigatie li a:hover {
+    color: cornflowerblue;
+}
+.navigatie li a.active {
+    color: cornflowerblue;
+}
+
+
+
+
+
+
+
+/*/ Hero /*/
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+
+
+/*/ Content /*/
+.content {
+    margin: 60px 0;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.foto img {
+    height: 300px;
+}
+
+
+
+
+
+/*/ Overige /*/
+.w-1\/2 {
+    width: 50%;
+}
+
+.mx-auto {
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+
+
+
+/*/ Table /*/
+.tableContainer {
+    margin: 20px 0;
+}
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+
+/*/ Footer /*/
+.footer-content {
+    background: #111111;
+    padding: 120px 0;
+    color: #fff;
+}
+
+.footer-copyright {
+    background: #fff;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/*/ Media query (responsive) /*/
+@media screen and (max-width: 1280px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
